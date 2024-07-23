@@ -1,0 +1,67 @@
+/* src/Style/AboutUs.css */
+
+.about-us {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.box .box-image {
+    flex: 1;
+    min-width: 200px; /* Adjust as needed for your layout */
+}
+
+.box .box-content {
+    flex: 2;
+    padding: 20px;
+    background-color:rgb(119, 126, 125);
+    color: #fff;
+}
+
+.box .side-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px; /* Increased margin for separation */
+}
+
+.box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Slightly reduced margin */
+}
+
+.box ul {
+    margin-bottom: 15px;
+    text-align: left; /* Ensure list items are aligned to the left */
+}
+
+.box ul li {
+    margin-bottom: 8px; /* Adjusted margin for list items */
+}
+
+.box ul li strong {
+    font-weight: bold;
+    color:black; /* Custom color for strong elements */
+}
+
+.box p strong {
+    font-weight: bold;
+}
+
+.box p:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last paragraph */
+}
